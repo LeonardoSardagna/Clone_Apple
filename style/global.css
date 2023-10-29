@@ -174,53 +174,47 @@ main .iPhone-section .text-wrapper{
     margin-top: 50px;
 }
 
-.bloco{
+.flex{
     display: flex;
-    flex-wrap:wrap ; 
-    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
 
- .imagens{
-    flex-direction: column;
-    justify-content: space-between;
+.flex > div{
+    width: 900px;
 }
 
-.iphone14pro{
+.imagem img{
+    width: 100%;
+}
+
+div #bloctext{
+    position: relative;
+}
+
+.text-iphone{
     position: absolute;
-    left: 21%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+    top: 4rem;
     color: var(--title-color);
+    top: -80%;
 }
 
-.airpods{
+.text-ipad{
     position: absolute;
-    left: 21%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 620px;
+    top: 4rem;
     color: var(--iphone14);
+    top: -80%;
 }
-
-.ipad{
+.text-airpods{
     position: absolute;
-    left: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+    top: 4rem;
     color: var(--iphone14);
+    top: -80%;
 }
-
-.watch{
+.text-watch{
     position: absolute;
-    left: 70%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 620px;
+    top: 4rem;
     color: var(--iphone14);
+    top: -80%;
 }
