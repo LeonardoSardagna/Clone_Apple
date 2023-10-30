@@ -192,6 +192,7 @@ main .iPhone-section .text-wrapper{
 
 div #bloctext{
     position: relative;
+    font-size: 23px;
 }
 
 .text-iphone{
@@ -214,6 +215,20 @@ div #bloctext{
     top: -80%;
 }
 .text-watch{
+    position: absolute;
+    top: 4rem;
+    color: var(--iphone14);
+    top: -80%;
+}
+
+.text-watch-series{
+    position: absolute;
+    top: 4rem;
+    color: var(--title-color);
+    top: -80%;
+}
+
+.text-card{
     position: absolute;
     top: 4rem;
     color: var(--iphone14);
