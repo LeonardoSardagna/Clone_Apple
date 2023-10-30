@@ -178,11 +178,11 @@ main .iPhone-section .text-wrapper{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .flex > div{
-    width: 900px;
+    width: 750px;
 }
 
 .imagem img{
